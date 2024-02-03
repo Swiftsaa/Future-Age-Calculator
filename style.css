@@ -23,3 +23,19 @@ h1 {
   50% {transform: translateY(-10px);}
   100% {transform: translateY(0px);}
 }
+
+.button {
+  border-radius: 10px;
+  background-color: #bbd7f2;
+  box-shadow: 5px 5px 5px #313a7c;
+  border: none;
+  font-family: PatrickHand;
+  font-size: 15px;
+  transition-duration: .5s;
+  
+}
+
+.button:hover {
+  background-color: #6bd3ff; /* Green */
+  color: black;
+}
