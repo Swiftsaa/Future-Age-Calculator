@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Future Age Calculator</title>
+  <link href="favicon.ico" rel="icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Future Age Calculator</h1>
+
+  <!--Form-->
+  <form id="ageCalc">
+    <label>Current age: </label>
+    <input id="currentAge">
+    <br>
+    <label>Future Year: </label>
+    <input id="futureYear">
+    <br>
+    <button onclick="calculateAge()">Calculate</button>
+  </form>
+
+  <!--The new age-->
+  <p>Your age in the future will be: <span id="ageResult"></span></p>
+  
+  <!---->
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@font-face {
+  src: url(PatrickHand.ttf);
+  font-family: PatrickHand;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: PatrickHand;
+  font-size: 20px;
+  color: #002547;
+  background-image: linear-gradient(to right, #6bd3ff, #039cb0);
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 10px 10px 10px;
+  animation: updown 5s infinite;;
+}
+
+@keyframes updown {
+  0% {transform: translateY(0px);}
+  50% {transform: translateY(-10px);}
+  100% {transform: translateY(0px);}
+}
