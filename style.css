@@ -32,7 +32,7 @@ h1 {
   font-family: PatrickHand;
   font-size: 15px;
   transition-duration: .5s;
-  
+  cursor: pointer;
 }
 
 .button:hover {
